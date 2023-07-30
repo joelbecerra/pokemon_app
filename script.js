@@ -24,7 +24,9 @@ function getPokemon(e) {
     </div>
     <div class="pokemonInfo">
         <h1>${capitalizeFirstLetter(data.name)}</h1>
+        <p>Pokemon # : ${data.id}</p>
         <p>Weight : ${data.weight}</p>
+        <p>Height : ${data.height}</p>
     </div>
         `;
     })
@@ -34,3 +36,5 @@ function getPokemon(e) {
 
     e.preventDefault();
 }
+
+
